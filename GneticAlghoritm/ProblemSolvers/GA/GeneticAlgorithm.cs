@@ -11,12 +11,12 @@ using ProblemSolvers.ProblemSolvers.GA.Selection;
 
 namespace ProblemSolvers.ProblemSolvers.GA;
 
-public record GaParams : ProblemSolverParams
+public record GeneticAlgorithm : ProblemSolverParams
 {
     private Tournament parentSelector;
     private ProblemSolverParams problemSolverParams;
 
-    public GaParams(
+    public GeneticAlgorithm(
                     double mutationFrequencyTreshold,
                     double crossingFrequency,
                     IMutationStrategy mutationStrategy,
@@ -31,18 +31,18 @@ public record GaParams : ProblemSolverParams
         this.ParentSelector = parentSelector;
     }
 
-    public GaParams(
-                double mutationFrequencyTreshold,
-                double crossingFrequency,
+    public GeneticAlgorithm(
+                double mutationFreqThreshhold,
+                double crossoverFrequency,
                 IMutationStrategy mutationStrategy,
-                ICrossingStrategy crossingStrategy,
+                ICrossingStrategy crossoverStrategy,
                 ISelector parentSelector,
                 ProblemSolverParams problemSolver) : base(problemSolver)
     {
-        MutationFrequencyTreshold = mutationFrequencyTreshold;
-        CrossingFrequency = crossingFrequency;
+        MutationFrequencyTreshold = mutationFreqThreshhold;
+        CrossingFrequency = crossoverFrequency;
         MutationStrategy = mutationStrategy;
-        CrossingStrategy = crossingStrategy;
+        CrossingStrategy = crossoverStrategy;
         ParentSelector = parentSelector;
     }
 

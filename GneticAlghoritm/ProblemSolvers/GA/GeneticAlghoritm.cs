@@ -23,7 +23,7 @@ public class GeneticAlghoritm : ProblemSlover<MinMaxAvg>
     public IMutationStrategy mutationStrategy { get; init; }
     public ISelector parentSelector { get; init; }
 
-    public GeneticAlghoritm(GaParams gaParams, int[] populationGenes, IEvaluator evaluator)
+    public GeneticAlghoritm(GeneticAlgorithm gaParams, int[] populationGenes, IEvaluator evaluator)
         : base(gaParams, populationGenes, evaluator)
     {
         mutationFrequencyTreshold = gaParams.MutationFrequencyTreshold;
