@@ -1,13 +1,4 @@
-﻿using ProblemSolvers.ProblemSolvers;
-using ProblemSolvers.ProblemSolvers.Crossing;
-using ProblemSolvers.ProblemSolvers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProblemSolvers.ProblemSolvers.Crossing;
+﻿namespace ProblemSolvers.ProblemSolvers.Crossing;
 
 internal class CycleCrossover : ICrossingStrategy
 {

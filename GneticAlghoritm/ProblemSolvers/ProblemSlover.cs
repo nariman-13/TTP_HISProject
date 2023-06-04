@@ -1,7 +1,5 @@
-﻿using ProblemSolvers.ProblemSolvers.Evaluation;
-using ProblemSolvers.Logger;
-using ProblemSolvers.Logger;
-using ProblemSolvers.ProblemSolvers;
+﻿using ProblemSolvers.Logger;
+using ProblemSolvers.ProblemSolvers.Evaluation;
 
 namespace ProblemSolvers.ProblemSolvers;
 

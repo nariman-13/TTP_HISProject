@@ -1,13 +1,6 @@
 ﻿using ProblemSolvers.ProblemSolvers.Crossing;
-using ProblemSolvers.ProblemSolvers.Evaluation;
-using ProblemSolvers.ProblemSolvers.Mutation;
-using ProblemSolvers.ProblemSolvers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ProblemSolvers.ProblemSolvers.GA.Selection;
+using ProblemSolvers.ProblemSolvers.Mutation;
 
 namespace ProblemSolvers.ProblemSolvers.GA;
 

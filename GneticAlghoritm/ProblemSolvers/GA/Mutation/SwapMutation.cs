@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ProblemSolvers.ProblemSolvers;
-
-namespace ProblemSolvers.ProblemSolvers.Mutation;
+﻿namespace ProblemSolvers.ProblemSolvers.Mutation;
 internal class SwapMutation : IMutationStrategy
 {
     private Random random = new Random();

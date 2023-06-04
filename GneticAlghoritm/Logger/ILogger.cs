@@ -1,6 +1,4 @@
-﻿using ProblemSolvers.Logger;
-
-namespace ProblemSolvers.Logger;
+﻿namespace ProblemSolvers.Logger;
 
 
 public interface ILogger<T> where T : ILogable

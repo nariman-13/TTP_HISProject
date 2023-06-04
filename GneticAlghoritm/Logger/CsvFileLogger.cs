@@ -1,11 +1,4 @@
-﻿using ProblemSolvers.Logger;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProblemSolvers.Logger;
+﻿namespace ProblemSolvers.Logger;
 
 internal class CsvFileLogger<T> : ILogger<T> where T : ILogable
 {

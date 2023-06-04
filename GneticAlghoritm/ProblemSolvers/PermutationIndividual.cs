@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using ProblemSolvers.ProblemSolvers.Evaluation;
+﻿using ProblemSolvers.ProblemSolvers.Evaluation;
 
 namespace ProblemSolvers.ProblemSolvers;
 
@@ -95,9 +89,9 @@ public class PermutationIndividual : IEquatable<PermutationIndividual>, ICompara
         if (other.Genome.Length != Genome.Length)
             return false;
 
-        for(int i = 0; i < Genome.Length; i++)
+        for (int i = 0; i < Genome.Length; i++)
         {
-            if(Genome[i] != other.Genome[i])
+            if (Genome[i] != other.Genome[i])
                 return false;
         }
 
@@ -106,7 +100,7 @@ public class PermutationIndividual : IEquatable<PermutationIndividual>, ICompara
 
     public int CompareTo(PermutationIndividual? other)
     {
-        if(other == null)   
+        if (other == null)
             return 1;
 
         return other.Value.CompareTo(Value);

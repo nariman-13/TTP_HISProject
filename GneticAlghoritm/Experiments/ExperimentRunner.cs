@@ -1,22 +1,16 @@
-﻿using ProblemSolvers.ProblemSolvers.Evaluation;
-using ProblemSolvers.ProblemSolvers;
-using ProblemSolvers.Logger;
+﻿using ProblemSolvers.Logger;
 using ProblemSolvers.ProblemLoader;
 using ProblemSolvers.ProblemSolvers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ProblemSolvers.Logger;
+using ProblemSolvers.ProblemSolvers.Evaluation;
 using System.Reflection;
+using System.Text;
 
 namespace ProblemSolvers.Experiments;
 
 public class ExperimentRunner<P, T, L> where P : ProblemSolverParams where T : ProblemSlover<L> where L : ILogable
 {
     readonly static ParallelOptions parallelOptions = new() { MaxDegreeOfParallelism = Environment.ProcessorCount };
-    public static void RunExperiments(IEnumerable<Experiment<P>> experiments, ProblemSolverFactory<T,P,L> solverFactory, string problemFileName, string baseDst)
+    public static void RunExperiments(IEnumerable<Experiment<P>> experiments, ProblemSolverFactory<T, P, L> solverFactory, string problemFileName, string baseDst)
     {
         var problem = new TravelingThiefProblem();
         problem.LoadFromFile($".\\DataSet\\{problemFileName}");
