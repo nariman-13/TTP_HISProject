@@ -7,7 +7,7 @@ using ProblemSolvers.ProblemSolvers.GA.Selection;
 using ProblemSolvers.ProblemSolvers.Mutation;
 
 string outputLocation = "C:\\Users\\Free\\OneDrive\\Desktop";
-string outputFolderName = "AliGa2";
+string outputFolderName = "Nariman";
 string inputFileName = "280Cities-Easy.ttp";
 
 GeneticAlgorithm geneticAlgorithmParams = new
