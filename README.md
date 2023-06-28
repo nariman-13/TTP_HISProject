@@ -20,7 +20,7 @@
  ### Name of the output Folder:
 
  The name of the output folder can be changed before running the code (please refer to the comments provided in the main code file.)
- ### Dataset Naming
+ ### Dataset Naming:
  Last but not least, the name of the dataset that needs to be compiled using the submitted application can be easily taken from the provided dataset folder in our submitted file. (that is only for ease of use since the dataset naming is a bit challenging to be typed by user.)
 
  # Note:
