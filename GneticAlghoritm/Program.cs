@@ -6,7 +6,11 @@ using ProblemSolvers.ProblemSolvers.GA;
 using ProblemSolvers.ProblemSolvers.GA.Selection;
 using ProblemSolvers.ProblemSolvers.Mutation;
 
-string outputLocation = "C:\\Users\\Free\\OneDrive\\Desktop";
+//desktoplocation is the place that the file results will be saved in based on the user's computer.(applicable to windows)
+// for the outputFolderName, is is basically based on the user's preferences to choose any name to be used as the folder name for saved results.
+//inputFileName is the name of the 9 different provided datasets. (the datasets are already included in the submission file in order to make it easier to compile and run.)
+
+string desktopLocation = Environment.GetFolderPath(Environment.SpecialFolder.Desktop); // example for our own system output location is : string outputLocation = "C:\\Users\\Free\\OneDrive\\Desktop"
 string outputFolderName = "Nariman";
 string inputFileName = "280Cities-Easy.ttp";
 
@@ -24,7 +28,7 @@ ExperimentRunner<GeneticAlgorithm, GeneticAlghoritm, MinMaxAvg>.RunExperiments(
     new List<Experiment<GeneticAlgorithm>> { new Experiment<GeneticAlgorithm>(outputFolderName, 10, 2000, geneticAlgorithmParams) },
     new GaSolverFactory(),
     inputFileName,
-    outputLocation
+    desktopLocation
 );
 
 
