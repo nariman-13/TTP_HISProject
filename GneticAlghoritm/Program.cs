@@ -11,8 +11,8 @@ using ProblemSolvers.ProblemSolvers.Mutation;
 //inputFileName is the name of the 9 different provided datasets. (the datasets are already included in the submission file in order to make it easier to compile and run.)
 
 string desktopLocation = Environment.GetFolderPath(Environment.SpecialFolder.Desktop); // example for our own system output location is : string outputLocation = "C:\\Users\\Free\\OneDrive\\Desktop"
-string outputFolderName = "Nariman";
-string inputFileName = "280Cities-Easy.ttp";
+string outputFolderName = "a280_n279_bounded-strongly-corr.ttp"; //This is the name of the output folder in which the data will be saved (it is exactly same name as the provided dataset.)
+string inputFileName = "a280_n279_bounded-strongly-corr.ttp"; // This is the first dataset (as an example) that it has been provided to us.
 
 GeneticAlgorithm geneticAlgorithmParams = new
 (
