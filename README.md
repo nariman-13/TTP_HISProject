@@ -4,8 +4,9 @@
  The provided dataset consits of 9 different files which are also available in the main zip folder.
 
  Group Members :
- 1.NARIMAN AYOUBI / nariman.ayoubi@stud.fra-uas.de
  
+ 1.NARIMAN AYOUBI / nariman.ayoubi@stud.fra-uas.de
+
  2.IFTEKHAR HOSSAIN / iftekhar.hossain@stud.fra-uas.de
 
  ## How to use the code:
