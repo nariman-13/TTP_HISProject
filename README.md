@@ -1,4 +1,5 @@
 # TTP_HISProject 
+
  A genetic algorithm approach of solving travelling thief problem.
 
  The provided dataset consits of 9 different files which are also available in the main zip folder.
@@ -23,4 +24,7 @@
  Last but not least, the name of the dataset that needs to be compiled using the submitted application can be easily taken from the provided dataset folder in our submitted file. (that is only for ease of use since the dataset naming is a bit challenging to be typed by user.)
 
  # Note:
+
+ Please bear in mind that the submitted code is generating resualts for the first "4 dataset collections" (all the provided datasets from 280 cities and the first provided dataset from 4461 cities). the rest of the datasets (5 datasets) are not having compiler error but the output results are empty.
+
  If you need more clarifications/details, please do not hesitate to contact us using the provided E-mail addresses. We will be more than happy to help.
